@@ -1,4 +1,4 @@
-# 📊 Sistema de Nóminas – Frontend (Vue.js)
+#  Sistema de Nóminas – Frontend (Vue.js)
 
 Este proyecto corresponde al **frontend de un sistema de nóminas**, desarrollado con **Vue.js 3** y **Vite**, el cual consume una **API REST** para la gestión de empleados, nóminas y otros módulos administrativos.
 
@@ -6,7 +6,7 @@ El objetivo del proyecto es mostrar el uso de Vue.js para construir una **Single
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 * **Vue.js 3** – Framework de JavaScript
 * **Vite** – Servidor de desarrollo y bundler
@@ -17,7 +17,7 @@ El objetivo del proyecto es mostrar el uso de Vue.js para construir una **Single
 
 ---
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 src/
@@ -39,22 +39,22 @@ src/
 
 ---
 
-## ⚙️ Instalación y ejecución
+## Instalación y ejecución
 
-### 1️⃣ Clonar el repositorio
+### Clonar el repositorio
 
 ```bash
 git clone <URL_DEL_REPOSITORIO>
 cd nominas-frontend
 ```
 
-### 2️⃣ Instalar dependencias
+###  Instalar dependencias
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Ejecutar el servidor de desarrollo
+### Ejecutar el servidor de desarrollo
 
 ```bash
 npm run dev
@@ -68,11 +68,11 @@ http://localhost:5173
 
 ---
 
-## 🔌 Conexión con el backend
+## Conexión con el backend
 
 La aplicación se conecta a un backend mediante **Axios**.
 
-### 📄 Configuración de Axios
+### Configuración de Axios
 
 ```js
 import axios from "axios";
@@ -99,7 +99,7 @@ const obtenerNominas = async () => {
 
 ---
 
-## 🧠 Conceptos de Vue utilizados
+##  Conceptos de Vue utilizados
 
 * **ref** – Variables reactivas
 * **computed** – Propiedades calculadas
@@ -110,7 +110,7 @@ const obtenerNominas = async () => {
 
 ---
 
-## 🧭 Navegación (Vue Router)
+##  Navegación (Vue Router)
 
 El proyecto utiliza **Vue Router** para manejar las rutas sin recargar la página.
 
@@ -127,7 +127,7 @@ Esto permite que la aplicación funcione como una **SPA**.
 
 ---
 
-## 🖥️ ¿Vue.js usa servidor?
+##  ¿Vue.js usa servidor?
 
 Sí. Durante el desarrollo, Vue utiliza un servidor (Vite) para servir la aplicación.
 
@@ -139,7 +139,7 @@ En producción:
 
 ---
 
-## ✅ Funcionalidades principales
+##  Funcionalidades principales
 
 * Listado de nóminas
 * Consulta de información desde API REST
@@ -151,6 +151,9 @@ En producción:
 
 ---
 
-✍️ **Autor:** René Martínez
+ **Autor:** 
+   * Jesús Hernández
+   * Oswaldo Martínez
+   * René Martínez
 
-📚 **Materia:** XML y Mapeo
+**Materia:** XML y Mapeo
